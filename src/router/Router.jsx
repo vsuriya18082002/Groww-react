@@ -1,14 +1,13 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from '../pages/Login';
 import Register from '../pages/Register';
 import Dashboard from '../pages/Dashboard';
 import Stock from '../pages/Stocks';
 import Fo from '../pages/FO';
-import MutualFunds from '../pages/MutualFunds';   
+import MutualFunds from '../pages/MutualFunds';
 import UPI from '../pages/UPI';
 import Loans from '../pages/Loans';
 import SignupPage from '../pages/SignupPage';
-
 
 function App() {
   return (
