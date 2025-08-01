@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import bg from '../assets/growbackground.png';
 import logo from '../assets/growlogo.png';
-import loginimg from '../assets/login.jpg';
 import img from '../assets/img1.jpg';
 
 
@@ -146,7 +145,7 @@ const styles = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  backgroundColor: '#ffffffff',
+  // backgroundColor: '#ffffffff',
   padding: '20px 0px 20px 20px',
   backgroundColor: 'rgba(198, 198, 198, 0.8)', // 0.8 is 80% opaque
   
