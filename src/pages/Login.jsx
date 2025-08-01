@@ -53,7 +53,7 @@ function HomePage() {
           <h1 style={{ color: 'GrayText' }}>GROWW</h1>
         </div>
         <div>
-          <button onClick={() => { setShowLogin(true); setShowSignup(false); }} style={styles.topButton}>Login</button>
+          <button onClick={() => { setShowLogin(true);}} style={styles.topButton}>Login</button>
           <button onClick={() => navigate('/signup')} style={styles.topButton}>Signup</button>
 
         </div>
